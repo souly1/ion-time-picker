@@ -1,6 +1,6 @@
 # ion-time-picker
 
-An ionic time picker (spinner) which is developed in web technologies but looks similar to native.
+An ionic/angular time picker (spinner) which is developed in web technologies but looks similar to native.
 
 ## Requirements
 
