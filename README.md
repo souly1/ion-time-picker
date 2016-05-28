@@ -60,7 +60,7 @@ Valid values:
  * `isDrawerOpen` - is the drawer currently open or not
 
 ## Purchase Link
-TBD
+[https://gum.co/dCcov](https://gum.co/dCcov)
 
 ## What's included
 Upon purchase you'll receive a minimized js file and minimized css for immediate use
