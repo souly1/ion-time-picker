@@ -25,7 +25,7 @@ An ionic/angular time picker (spinner) which is developed in web technologies bu
 Add dependencies on the `ion-time-picker` AngularJS module:
 
 ```javascript
-angular.module('myApp', ['ion-time-picker']);
+angular.module('myApp', ['ion-pickers']);
 ```
 
 You can now use the directive, add the attribute to your existing DOM element in HTML:
