@@ -60,7 +60,7 @@ Valid values:
  * `isDrawerOpen` - is the drawer currently open or not
 
 ## Purchase Link
-[ion-number-picker](https://gum.co/dCcov)
+[ion-time-picker](https://gum.co/dCcov)
 
 ## What's included
 Upon purchase you'll receive a minimized js file and minimized css for immediate use
