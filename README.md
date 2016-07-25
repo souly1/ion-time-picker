@@ -30,13 +30,13 @@ angular.module('myApp', ['ion-pickers']);
 
 You can now use the directive, add the attribute to your existing DOM element in HTML:
 ```html
-<input type="text" ng-model="value" ion-time-picker>
+<input type="text" ng-model="value.time" ion-time-picker>
 ```
 
 ## Directive Attributes
 
 - `id (optional)` - Give a unique id to the bound element and drawer will be named {{id}}-drawer
-- `ng-model` (optional) - Define the model to bind the selected value to. the value of the model is displayed once drawer is open
+- `ng-model` (optional) - string. Define the model to bind the selected value to. the value of the model is displayed once drawer is open. 
 - `ng-change` (optional) - method called after the value has been set
 - `sensitivity (optional)` - Define the scroll sensitivity
 - `step` (optional) - The distance between two displayed values for minutes, default is 5 minutes
