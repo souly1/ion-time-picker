@@ -40,6 +40,7 @@ You can now use the directive, add the attribute to your existing DOM element in
 - `ng-change` (optional) - method called after the value has been set
 - `sensitivity (optional)` - Define the scroll sensitivity
 - `step` (optional) - The distance between two displayed values for minutes, default is 5 minutes
+- `openPartScreenDrawerBarrier (optional)` - define the device height in pixels where any value higher than it will open drawer partially and not full screen. use 0 to always open as parital drawer. default is 420px
 - `ngDefault` (optional) - if ng-model is null then time selector open on this time as selected. If displaying with AM/PM format is of type: HH:MM AA
 - `control` (optional) - control element to control directive from outside (see notes for details)
 - `hasClear` (optional) - Whether drawer has clear button or not, if does value set to zero
