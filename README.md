@@ -45,6 +45,7 @@ You can now use the directive, add the attribute to your existing DOM element in
 - `control` (optional) - control element to control directive from outside (see notes for details)
 - `hasClear` (optional) - Whether drawer has clear button or not, if does value set to zero
 - `isWithDaytime` (optional) - Is hour with AM/PM of 24H display. If not set uses browser setting
+- `deleteOnClose` (optional) - Whether to remove DOM elements and event registration on close of drawer. Better user with many drawers that have a large number of elements Default is false
 - `onSet` (optional) - event fired when set button clicked, model is set value. Has two params oldValue and newValue, If returning false from method set canceled. IMPORTANT: only pass method name without brackets
 - `onCancel` (optional) - event fired when cancel button clicked. IMPORTANT: only pass method name without brackets
 - `onClear` (optional) - event fired when clear button clicked. IMPORTANT: only pass method name without brackets
@@ -59,6 +60,7 @@ Valid values:
  * `closeDrawer` - closes the time select drawer
  * `getCurrentSelection` - returns the current value displayed as selected in time select drawer
  * `isDrawerOpen` - is the drawer currently open or not
+ * `prepareDom` - use to manually issue a creation of DOM elements which can be costly. Will do nothing if DOM element already exists.
 
 ## Purchase Link
 [ion-time-picker](https://gum.co/dCcov)
